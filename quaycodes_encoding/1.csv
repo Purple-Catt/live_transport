@@ -1,0 +1,26 @@
+﻿Stop,quaycode_1,quaycode_2,pin_stop,pin_pass_1,pin_pass_2
+Muiderpoortstation,NL:Q:30000441,NL:Q:30000007,pin_100,pin_101,xxxxxxx
+Dapperstraat,NL:Q:30000010,NL:Q:30000008,pin_102,pin_103,pin_101
+Linnaeusstraat,NL:Q:30000017,NL:Q:30000444,pin_104,pin_105,pin_103
+Beukenweg,NL:Q:30000020,NL:Q:30000021,pin_106,pin_107,pin_105
+K. 's-Gravesandestr.,NL:Q:30008051,NL:Q:30008176,pin_108,pin_109,pin_107
+Weesperplein,NL:Q:30008053,NL:Q:30008054,pin_110,pin_111,pin_109
+Frederiksplein,NL:Q:30008066,NL:Q:30008057,pin_112,pin_113,pin_111
+Vijzelgracht,NL:Q:30008072,NL:Q:30008073,pin_114,pin_115,pin_113
+Rijksmuseum,NL:Q:30006054,NL:Q:30006058,pin_200,pin_201,pin_115
+Leidseplein,NL:Q:30006089,NL:Q:30006062,pin_202,pin_203,pin_201
+1e Con. Huygensstraat,NL:Q:30006045,NL:Q:30006046,pin_204,pin_205,pin_203
+J.P. Heijestraat,NL:Q:30006048,NL:Q:30006049,pin_206,pin_207,pin_205
+Rhijnvis Feithstraat,NL:Q:30006081,NL:Q:30006082,pin_208,pin_209,pin_207
+Surinameplein,NL:Q:30006002,NL:Q:30006001,pin_210,pin_211,pin_209
+Derkinderenstraat,NL:Q:30004060,NL:Q:30004061,pin_212,pin_213,pin_211
+Station Lelylaan,NL:Q:30004196,NL:Q:30004195,pin_214,pin_215,pin_213
+Johan Huizingalaan,NL:Q:30004062,NL:Q:30004063,pin_300,pin_301,pin_215
+Meer en Vaart,NL:Q:30004050,NL:Q:30004049,pin_302,pin_303,pin_301
+Louis Davidsstraat,NL:Q:30004413,NL:Q:30004414,pin_304,pin_305,pin_303
+Hoekenes,NL:Q:30004411,NL:Q:30004412,pin_306,pin_307,pin_305
+Baden Powellweg,NL:Q:30004409,NL:Q:30004410,pin_308,pin_309,pin_307
+Ecuplein,NL:Q:30004407,NL:Q:30004408,pin_310,pin_311,pin_309
+Inaristraat,NL:Q:30004405,NL:Q:30004406,pin_312,pin_313,pin_311
+Pilatus,NL:Q:30004403,NL:Q:30004404,pin_314,pin_315,pin_313
+Matterhorn,NL:Q:30004401,NL:Q:30004402,pin_400,pin_401,pin_315

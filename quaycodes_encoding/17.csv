@@ -1,0 +1,25 @@
+﻿Stop,quaycode_1,quaycode_2,pin_stop,pin_pass_1,pin_pass_2
+Centraal Station,NL:Q:30005011,NL:Q:30005011,pin_612,pin_613,xxxxxxx
+Nieuwezijds Kolk,NL:Q:30005070,NL:Q:30005069,pin_614,pin_615,pin_613
+Dam,NL:Q:30005065,NL:Q:30005071,pin_700,pin_701,pin_615
+Paleisstraat,NL:Q:30005058,NL:Q:30005063,pin_702,pin_703,pin_701
+Koningsplein,NL:Q:30005064,NL:Q:30005060,pin_704,pin_705,pin_703
+Keizersgracht,NL:Q:30006074,NL:Q:30006073,pin_706,pin_707,pin_705
+Prinsengracht,NL:Q:30006072,NL:Q:30006071,pin_708,pin_709,pin_707
+Leidseplein,NL:Q:30006089,NL:Q:30006067,pin_710,pin_711,pin_709
+Overtoom,NL:Q:30006044,NL:Q:30006043,pin_712,pin_713,pin_711
+Kinkerstraat,NL:Q:30006024,xxxxxxx,pin_714,pin_715,pin_713
+Nicolaas Beetsstraat,NL:Q:30006014,NL:Q:30006018,pin_800,pin_801,pin_715
+Witte de Withstraat,NL:Q:30003009,NL:Q:30003009,pin_802,pin_803,pin_801
+Postjeweg,NL:Q:30006015,NL:Q:30006015,pin_804,pin_805,pin_803
+Corantijnstraat,NL:Q:30006010,NL:Q:30006010,pin_806,pin_807,pin_805
+Surinameplein,NL:Q:30006002,NL:Q:30006002,pin_808,pin_809,pin_807
+Derkinderenstraat,NL:Q:30004060,NL:Q:30004060,pin_810,pin_811,pin_809
+Station Lelylaan,NL:Q:30004196,NL:Q:30004196,pin_812,pin_813,pin_811
+Johan Huizingalaan,NL:Q:30004062,NL:Q:30004062,pin_814,pin_815,pin_813
+Meer en Vaart,NL:Q:30004050,NL:Q:30004050,pin_900,pin_901,pin_815
+Osdorpplein Oost,NL:Q:30004065,NL:Q:30004065,pin_902,pin_903,pin_901
+Osdorpplein West,NL:Q:30004021,NL:Q:30004021,pin_904,pin_905,pin_903
+Hoekenes,NL:Q:30004016,NL:Q:30004016,pin_906,pin_907,pin_905
+Baden Powellweg,NL:Q:30004012,NL:Q:30004012,pin_908,pin_909,pin_907
+Dijkgraafplein,NL:Q:30004009,NL:Q:30004009,pin_910,pin_911,pin_909
