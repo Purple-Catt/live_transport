@@ -8,13 +8,16 @@ import pandas as pd
 from adafruit_mcp230xx.mcp23017 import MCP23017
 from adafruit_extended_bus import ExtendedI2C
 
-lines = ['1', '2', '17']
-context = zmq.Context()
 first = True
+lines = ['1', '2', '17']
 start = dt.strptime("06:00", "%H:%M").time()
 end = dt.strptime("23:59", "%H:%M").time()
+qc_pin_map = dict()
+for line in lines:
+    qc_pin_map[line] = pd.read_csv(f'quaycodes_encoding\\{line}.csv', header=0)
 
-# Activating connection to retrieve data
+# Activating connection to receiving data
+context = zmq.Context()
 subscriber = context.socket(zmq.SUB)
 subscriber.connect("tcp://pubsub.besteffort.ndovloket.nl:7817")
 subscriber.setsockopt_string(zmq.SUBSCRIBE, "/GOVI/KV8")
@@ -104,11 +107,29 @@ while True:
                             df.update(temp)
 
                             df = pd.concat([df, temp[~temp.index.isin(df.index)]])
-                            # Drop vehicles that haven't been updated for more than 10 mins
+
+                            # To avoid the leds flickering, all of them will be turned off and then on again using
+                            # a static approach instead of a dynamic one, also speeding up the code.
+                            for pin in output_pins.keys():
+                                output_pins[pin].value = False
+
                             for idx in df.index:
+                                line_map = qc_pin_map[df.loc[idx, 'LinePublicNumber']]
+                                direction = df.loc[idx, 'LineDirection']
+                                quaycode = df.loc[idx, 'QuayCode']
+                                line_stop = line_map.loc[line_map[f'quaycode_{direction}'] == quaycode]
+
+                                if df.loc[idx, 'RecordedDepartureTime'] == r'\0':
+                                    output_pins[line_stop['pin_stop'][0]].value = True
+
+                                else:
+                                    output_pins[line_stop[f'pin_pass_{direction}'][0]].value = True
+
+                                # Drop vehicles that haven't been updated for more than 10 mins
                                 if dt.now() - dt.combine(dt.today().date(),
                                                          dt.strptime(df.loc[idx, 'RecordedArrivalTime'],
                                                                      '%H:%M:%S').time()) > timedelta(minutes=10):
+                                    output_pins[line_stop['pin_stop'][0]].value = False
                                     df.drop(index=idx, inplace=True)
 
                             os.system('cls')
