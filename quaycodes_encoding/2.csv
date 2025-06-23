@@ -1,22 +1,22 @@
 ﻿Stop,quaycode_1,quaycode_2,pin_stop,pin_pass_1,pin_pass_2
-Centraal Station,NL:Q:30005011,NL:Q:30005011,pin_402,pin_403,xxxxxxx
-Nieuwezijds Kolk,NL:Q:30005070,NL:Q:30005069,pin_404,pin_405,pin_403
-Dam,NL:Q:30005050,NL:Q:30005071,pin_406,pin_407,pin_405
-Paleisstraat,NL:Q:30005058,NL:Q:30005063,pin_408,pin_409,pin_407
-Koningsplein,NL:Q:30005064,NL:Q:30005060,pin_410,pin_411,pin_409
-Keizersgracht,NL:Q:30006074,NL:Q:30006073,pin_412,pin_413,pin_411
-Prinsengracht,NL:Q:30006072,NL:Q:30006071,pin_414,pin_415,pin_413
-Leidseplein,NL:Q:30006089,NL:Q:30006067,pin_500,pin_501,pin_415
-Museumplein,NL:Q:30007325,NL:Q:30007326,pin_502,pin_503,pin_501
-Corn. Schuytstraat,NL:Q:30007027,NL:Q:30007028,pin_504,pin_505,pin_503
-Valeriusplein,NL:Q:30007031,NL:Q:30007032,pin_506,pin_507,pin_505
-Amstelveenseweg,NL:Q:30007033,NL:Q:30007030,pin_508,pin_509,pin_507
-Hoofddorpplein,NL:Q:30007048,NL:Q:30007049,pin_510,pin_511,pin_509
-Westlandgracht,NL:Q:30004109,NL:Q:30004110,pin_512,pin_513,pin_511
-Delflandlaan,NL:Q:30004120,NL:Q:30004111,pin_514,pin_515,pin_513
-Heemstedestraat,NL:Q:30004114,NL:Q:30004116,pin_600,pin_601,pin_515
-Johan Huizingalaan,NL:Q:30004112,NL:Q:30004113,pin_602,pin_603,pin_601
-Louwesweg,NL:Q:30004088,NL:Q:30004089,pin_604,pin_605,pin_603
-Laan v.Vlaanderen,NL:Q:30004277,NL:Q:30004276,pin_606,pin_607,pin_605
-Centrum Nieuw Sloten,NL:Q:30004279,NL:Q:30004278,pin_608,pin_609,pin_607
-Oudenaardeplantsoen,NL:Q:30004340,NL:Q:30004314,pin_610,pin_611,pin_609
+Centraal Station,NL:Q:30005011,NL:Q:30005011,pin_401,pin_402,xxxxxxx
+Nieuwezijds Kolk,NL:Q:30005070,NL:Q:30005069,pin_403,pin_404,pin_402
+Dam,NL:Q:30005050,NL:Q:30005071,pin_405,pin_406,pin_404
+Paleisstraat,NL:Q:30005058,NL:Q:30005063,pin_407,pin_408,pin_406
+Koningsplein,NL:Q:30005064,NL:Q:30005060,pin_409,pin_410,pin_408
+Keizersgracht,NL:Q:30006074,NL:Q:30006073,pin_411,pin_412,pin_410
+Prinsengracht,NL:Q:30006072,NL:Q:30006071,pin_413,pin_414,pin_412
+Leidseplein,NL:Q:30006089,NL:Q:30006067,pin_415,pin_500,pin_414
+Museumplein,NL:Q:30007325,NL:Q:30007326,pin_501,pin_502,pin_500
+Corn. Schuytstraat,NL:Q:30007027,NL:Q:30007028,pin_503,pin_504,pin_502
+Valeriusplein,NL:Q:30007031,NL:Q:30007032,pin_505,pin_506,pin_504
+Amstelveenseweg,NL:Q:30007033,NL:Q:30007030,pin_507,pin_508,pin_506
+Hoofddorpplein,NL:Q:30007048,NL:Q:30007049,pin_509,pin_510,pin_508
+Westlandgracht,NL:Q:30004109,NL:Q:30004110,pin_511,pin_512,pin_510
+Delflandlaan,NL:Q:30004120,NL:Q:30004111,pin_513,pin_514,pin_512
+Heemstedestraat,NL:Q:30004114,NL:Q:30004116,pin_515,pin_600,pin_514
+Johan Huizingalaan,NL:Q:30004112,NL:Q:30004113,pin_601,pin_602,pin_600
+Louwesweg,NL:Q:30004088,NL:Q:30004089,pin_603,pin_604,pin_602
+Laan v.Vlaanderen,NL:Q:30004277,NL:Q:30004276,pin_605,pin_606,pin_604
+Centrum Nieuw Sloten,NL:Q:30004279,NL:Q:30004278,pin_607,pin_608,pin_606
+Oudenaardeplantsoen,NL:Q:30004340,NL:Q:30004314,pin_609,xxxxxxx,pin_608
