@@ -1,6 +1,6 @@
 from gzip import GzipFile
 from io import BytesIO
-import os
+from os import system, name
 from datetime import datetime as dt, timedelta
 import zmq
 from ctx import ctx_decode
@@ -15,6 +15,14 @@ context = zmq.Context()
 subscriber = context.socket(zmq.SUB)
 subscriber.connect("tcp://pubsub.besteffort.ndovloket.nl:7817")
 subscriber.setsockopt_string(zmq.SUBSCRIBE, "/GOVI/KV8")
+
+
+def clear():
+    if name == 'nt':
+        x = system('cls')
+
+    else:
+        x = system('clear')
 
 # Run only between 6:00am and 11:59pm, also to avoid timestamps' problems in data after midnight
 while True:
@@ -82,7 +90,7 @@ while True:
                                                                      '%H:%M:%S').time()) > timedelta(minutes=10):
                                     df.drop(index=idx, inplace=True)
 
-                            os.system('cls')
+                            clear()
                             print(df.loc[:, ['LinePublicNumber', 'RecordedArrivalTime', 'RecordedDepartureTime',
                                              'QuayCode', 'DestinationName', 'LineDirection', 'TripStopStatus',
                                              'JourneyStopType']])
