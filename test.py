@@ -24,6 +24,7 @@ def clear():
     else:
         x = system('clear')
 
+
 # Run only between 6:00am and 11:59pm, also to avoid timestamps' problems in data after midnight
 while True:
     if start < dt.now().time() < end:
